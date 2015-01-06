@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
   <movement-title>Excerpt from Piano Sonata in A Major, K. 331</movement-title>
@@ -60,7 +60,7 @@
   </defaults>
   <part-list>
     <score-part id="P1">
-      <part-name print-object="no">Piano</part-name>
+      <part-name print-object="yes">Piano</part-name>
       <score-instrument id="P1-I1">
         <instrument-name>Acoustic Grand Piano</instrument-name>
       </score-instrument>
@@ -90,6 +90,10 @@
           <fifths>3</fifths>
           <mode>major</mode>
         </key>
+        <time>
+          <beats>2</beats>
+          <beat-type>4</beat-type>
+        </time>
         <staves>2</staves>
         <clef number="1">
           <sign>G</sign>
