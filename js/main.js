@@ -18,5 +18,5 @@ requirejs.config({
 // Start the main app logic.
 require(['jquery', 'underscore', 'scorescribe'],
 function ($, _, ScoreScribe) {
-    ScoreScribe.Parse.parse();
+    
 }); 
