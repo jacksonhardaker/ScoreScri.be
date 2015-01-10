@@ -3,6 +3,16 @@
   src: url('../font/bravura.eot');
   src: url('../font/bravura.eot?#iefix') format('embedded-opentype'), url('../font/bravura.woff') format('woff'), url('../font/bravura.ttf') format('truetype'), url('../font/bravura.svg#svgFontName') format('svg');
 }
+.clef {
+  font-family: 'Bravura';
+  font-size: 16px;
+  font-style: normal;
+  font-size: 1.5em;
+  position: relative;
+}
+.treble {
+  top: -32px;
+}
 .parts {
   /* Flexbox container */
   display: -webkit-box;
@@ -15,4 +25,16 @@
 }
 .parts > .system-measure > .part-measure {
   font-family: 'Bravura';
+  font-size: 16px;
+  position: relative;
+  /*height: 64px;*/
+}
+.parts > .system-measure > .part-measure > .stave-lines {
+  background-image: url(../img/svg/stave-five-lines.svg);
+  background-repeat: repeat-x;
+  background-position-y: center;
+  position: relative;
+  height: 23px;
+  margin: 21px 0 20px;
+  border-right: 1px solid black;
 }
